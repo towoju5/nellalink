@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "24c05191d00f03d827cb3021060580ee",
+    "content-hash": "a0a0b9082daa7204c59a1035d835e183",
     "packages": [
         {
             "name": "brick/math",
@@ -5461,6 +5461,66 @@
                 "source": "https://github.com/tijsverkoyen/CssToInlineStyles/tree/v2.2.7"
             },
             "time": "2023-12-08T13:03:43+00:00"
+        },
+        {
+            "name": "towoju5/smart-meta-manager",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/towoju5/smart-meta-manager.git",
+                "reference": "511ee1fed8311c8fc9e73f3fde212f641f418bcf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/towoju5/smart-meta-manager/zipball/511ee1fed8311c8fc9e73f3fde212f641f418bcf",
+                "reference": "511ee1fed8311c8fc9e73f3fde212f641f418bcf",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^6.0",
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Towoju5\\SmartMetaManager\\SmartMetaManagerServiceProvider"
+                    ],
+                    "aliases": {
+                        "SmartMetaManager": "Towoju5\\SmartMetaManager\\SmartMetaManagerFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Towoju5\\SmartMetaManager\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "EMMANUEL TOWOJU",
+                    "email": "towojuads@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple smart meta manage for laravel/middey Technology",
+            "homepage": "https://github.com/towoju5/smart meta manager",
+            "keywords": [
+                "smart meta manager",
+                "towoju5"
+            ],
+            "support": {
+                "issues": "https://github.com/towoju5/smart-meta-manager/issues",
+                "source": "https://github.com/towoju5/smart-meta-manager/tree/v1.1"
+            },
+            "time": "2024-09-05T19:03:05+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
