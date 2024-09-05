@@ -25,9 +25,6 @@ jobs:
       - name: Generate key
         run: php artisan key:generate
 
-      - name: Generate JWT Key
-        run: php artisan jwt:secret
-
       - name: Generate storage link
         run: php artisan storage:link
 
